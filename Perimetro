@@ -1,4 +1,10 @@
- //1. Tipo de dato asignado a un numero decimal 
+ fun circleArea(radius:Float): Float{
+    return PI*radius.pow(2)
+}
+import kotlin.math.pow
+const val PI= 3.1416f
+fun main() {
+     //1. Tipo de dato asignado a un numero decimal 
     
     var numDecimal = 5.24;
     println("Número en decimal: $numDecimal");
@@ -8,6 +14,8 @@
     
     var floatDecimal = 5.24;
     println("El numero en flotante: $floatDecimal");
+   
+     
     
     
     //3. Calcular al área del círculo
@@ -16,7 +24,6 @@
     val area = circleArea(radius)
     println("El área del círculo es: $area")
 }
-
 fun circleArea(radius:Float): Float{
     return PI*radius.pow(2)
 }
